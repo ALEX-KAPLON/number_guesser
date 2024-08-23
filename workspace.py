@@ -28,8 +28,3 @@ while tries < guesses:
         print("Try again! Your guess is too high.")
 if not flag:
     print("You have exhausted all your guesses. The number was", number)
-window=tk.Tk()
-window.title("Number Guesser Game")
-window.geometry("500x300")
-window.configure(bg="white")
-window.mainloop()
