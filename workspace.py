@@ -3,7 +3,7 @@ import math
 import tkinter as tk
 from tkinter import mainloop
 
-print("\tNumber guesser game: ")
+print("\tNumber guesser game:")
 
 bottom = int(input("Enter bottom range: "))
 top = int(input("Enter top range: "))
